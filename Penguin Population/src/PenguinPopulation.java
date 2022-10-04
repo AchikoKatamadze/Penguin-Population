@@ -3,7 +3,7 @@
 public class PenguinPopulation extends MiniJava {
 
     public static void main(String[] args){
-        int n = readInt();
+        int n = readInt("Please insert a number:");
 
         int y = 2, a = 0, s = 0; // YASSS QUEEN!
 
