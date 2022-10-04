@@ -5,14 +5,16 @@ public class PenguinPopulation extends MiniJava {
     public static void main(String[] args){
         int n = readInt("Please insert a number:");
 
-        int x = 2, a = 0, z = 0;
+        int x = 2, y = 0, z = 0;
+        int i = 0;
 
-        for (int i = 0; i < n; i++) {
-            z = a;
-            a = x;
-            x = 2 * a + z;
+        while (i < n) {
+            i++;
+            z = y;
+            y = x;
+            x = 2 * y + z;
         }
 
-        write(x + a + z);
+        write(x + y + z);
     }
 }
